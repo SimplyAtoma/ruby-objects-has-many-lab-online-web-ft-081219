@@ -13,6 +13,7 @@ class Song
   end
   
   def artist_name
-    artist
+    hold = artist
+    hold.name
   end
 end
