@@ -12,6 +12,6 @@ class Song
     @@all
   end
   def artist_name
-    self.artist
+    self.artist.name
   end
 end
