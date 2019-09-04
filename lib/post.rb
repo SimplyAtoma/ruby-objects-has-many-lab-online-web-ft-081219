@@ -12,7 +12,10 @@ class Post
     @@all
   end
   def author_name
-   hold = author.name
-   hold
+    if author.name
+      author.name 
+    else 
+      return nil 
+    end
   end
 end
